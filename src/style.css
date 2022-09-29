@@ -1,1 +1,12 @@
-/* styles go here */
+/* stylelint-disable CssSyntaxError */
+fieldset > div:nth-child(n + 3) {
+  margin-top: 10px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+.old {
+  width: 70px;
+}

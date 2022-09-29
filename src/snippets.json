@@ -1,0 +1,15 @@
+{
+  "html": {
+    "snippets": {
+      "it": "<input type=${1:text} name=${2}>"
+
+      }
+
+
+    }
+  ,
+  "css": {
+    "snippets": {
+    }
+  }
+}
