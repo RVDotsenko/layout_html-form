@@ -20,12 +20,17 @@
           <input 
             type="text" 
             name="surname"
+            autocomplete="off"
             class="top"
           >
         </label> <br>
         <label for="name">
           Name:
-          <input type="text" name="name">
+          <input 
+            type="text" 
+            name="name"
+            autocomplete="off"
+          >
         </label> <br>
         <label for="ears">
           How old are You?
@@ -33,6 +38,8 @@
             class="old"
             type="number"
             name="ears"
+            min="1"
+            max="100"
             value="12"
           >
         </label> <br>
@@ -59,12 +66,17 @@
             type="email"
             name="email"
             placeholder="email@example.com"
+            autocomplete="off"
             class="top"
           >
         </label> <br>
         <label for="pass">
           Password:
-          <input type="password" name="pass">
+          <input 
+            type="password" 
+            name="pass"
+            autocomplete="off"
+          >
         </label>
       </fieldset>
 
@@ -126,7 +138,9 @@
             name="comment"
             id="area"
             cols="20"
-            rows="2">
+            rows="2"
+            autocomplete="off"
+          >
           </textarea>
         </label> <br>
         <label for="recommend">
