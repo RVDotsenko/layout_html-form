@@ -1,6 +1,15 @@
 /* stylelint-disable CssSyntaxError */
-fieldset > div:nth-child(n + 3) {
+input,
+select {
   margin-top: 10px;
+}
+
+.top {
+  margin-top: 0;
+}
+
+.bottom {
+  margin-top: 13px;
 }
 
 fieldset {
@@ -8,5 +17,13 @@ fieldset {
 }
 
 .old {
-  width: 70px;
+  width: 65px;
+}
+
+.radio {
+  margin-top: 3px;
+}
+
+.range {
+  margin-top: 12px;
 }
