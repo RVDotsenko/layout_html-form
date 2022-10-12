@@ -1,15 +1,18 @@
 /* stylelint-disable CssSyntaxError */
-input,
-select {
+label,
+select,
+.color,
+.time {
+  display: inline-block;
   margin-top: 10px;
 }
 
-.top {
+fieldset > label:first-of-type {
   margin-top: 0;
 }
 
-.bottom {
-  margin-top: 13px;
+#rec {
+  margin-top: 0;
 }
 
 fieldset {
