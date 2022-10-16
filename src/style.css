@@ -15,7 +15,7 @@ fieldset > label:first-of-type {
   margin-top: 0;
 }
 
-fieldset {
+.fieldset {
   margin-bottom: 20px;
 }
 

@@ -18,7 +18,7 @@ Create HTML page with form. On form submit send form data to `https://mate-acade
 - Every field should have label, which focuses input on label click
 - Do not use tabs for indentation. Instead use 2 spaces
 - Most of the time you want each tag in new line
-- Form should have different inputs with such types:
+- Form should have different inputs with such types::
   - [ ] text
   - [ ] number
   - [ ] email
