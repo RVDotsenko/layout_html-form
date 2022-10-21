@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+    <form 
+    class="form" 
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+    method="post"
+    >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
 
@@ -21,28 +25,29 @@
             type="text" 
             autocomplete="off"
           >
-        </label> <br>
+        </label>  
         <label class="label">
           Name:
           <input 
             type="text" 
             autocomplete="off"
           >
-        </label> <br>
+        </label>  
         <label class="label">
           How old are You?
           <input
             class="old"
+            width="65px"
             type="number"
             min="1"
             max="100"
             value="12"
           >
-        </label> <br>
+        </label>  
         <label class="label">
           Full date of birth:
           <input type="date">
-        </label> <br>
+        </label>  
         <label class="label">
           I accept the term of the agreement
           <input 
@@ -62,7 +67,7 @@
             placeholder="email@example.com"
             autocomplete="off"
           >
-        </label> <br>
+        </label>  
         <label class="label">
           Password:
           <input 
@@ -75,32 +80,32 @@
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
 
-        <lable>
+        <lable class="label">
           Do you love cats?
-          <input 
-            type="radio" 
+          <input
+            type="radio"
             name="loveCats"
             class="radio"
           >
           Yes
         </lable>
-        <label class="label">
-          <input 
-            type="radio" 
+        <lable class="label">
+          <input
+            type="radio"
             name="loveCats"
             class="radio"
           >
           No
-        </label> <br>
-        <lable>
+        </lable>
+        <lable class="label">
           What is your favorite color?
           <input type="color" class="color">
-        </lable> <br>
-        <lable>
+        </lable>  
+        <lable class="label">
           What time do you go to bed?
           <input type="time" class="time">
-        </lable> <br>
-        <lable>
+        </lable>  
+        <lable class="label">
           What are your favorite brand of cars?
           <select
             class="select"
@@ -110,8 +115,8 @@
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
           </select>
-        </lable> <br>
-        <lable for="range">
+        </lable>  
+        <lable class="label">
           How do you rate our work?
           <input
             type="range"
@@ -119,13 +124,13 @@
             value="0"
             class="range"
           >
-        </lable> <br>
+        </lable>  
       </fieldset>
 
       <fieldset class="fieldset">
         <legend>Additional info</legend>
 
-        <label for="comment">
+        <label class="label">
           Comments:
           <textarea name="comment"
             id="area"
@@ -133,8 +138,8 @@
             rows="2"
             autocomplete="off"
          ></textarea>
-        </label> <br>
-        <label for="recommend">
+        </label>
+        <label class="label">
           Would you recommend us?
           <select name="recommend" class="select">
             <option value="yes">yes</option>
